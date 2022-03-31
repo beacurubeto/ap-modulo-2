@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta real="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="estilo por defecto/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/978f70b313.js" crossorigin="anonymous"></script>
     <title>Ejercicio Módulo 2 Argentina Programa</title>
 </head>
 <body>
+    <div class="contenedor">
         <nav class="conteiner">
       <a href="a" class="nav1">INICIO</a>
       <a href="mundo.html" class="nav2">MUNDO</a>
-      <a href="felicidad.html">SOCIALES</a>
-      <a href="precios.html" class="nav3">ECONOMIA</a>
-      <form action="e" class="form">
+      <a href="felicidad.html"  class="nav3">SOCIALES</a>
+      <a href="precios.html" class="nav4">ECONOMIA</a>
+      <form action="e">
+          <div class="search">
           <label for="search">
           <input type="text">
-          <button class="button">BUSCAR</button>
+          <button>BUSCAR</button>
       </label>
+    </div>
     </form>
   </nav> 
   <header>
@@ -27,22 +31,26 @@
   <section>
       <article>
           <div class="icono1"><i class="fa-solid fa-quote-left"></i></div>
+          <div class="opinion1">
           Lucha contra la violencia
-          <div>
+        </div>
+          <div class="detalle1">
               <a href="https://www.lagaceta.com.ar/nota/935579/opinion/busca-resultados-lucha-contra-violencia.htm" target="_blank">Ver Detalles</a>
             </div>
       </article>
       <article>
           <div class="icono2"><i class="fa-solid fa-quote-left"></i></div>
-          <div>Límites al derecho al olvido</div>
-          <div>
+          <div class="opinion2">Límites al derecho al olvido</div>
+          <div class="detalle2">
               <a href="https://www.lagaceta.com.ar/nota/935590/opinion/debate-limites-al-derecho-al-olvido.html" target="_blank">Ver Detalles</a>
         </div>
       </article>
       <article>
           <div class="icono3"><i class="fa-solid fa-quote-left"></i></div>
-          El cruce peligroso en que el semáforo ya no alcanza
-          <div>
+          <div class="opinion3">
+          El cruce peligroso
+        </div>
+          <div class="detalle3">
               <a href="https://www.lagaceta.com.ar/nota/935469/opinion/cruce-peligroso-semaforo-ya-no-alcanza.html" target="_blank">Ver Detalles</a>
             </div>
       </article>
@@ -75,9 +83,16 @@
   </article>
   <footer class="pie">
       2022 Argentina Programa - Ejercicio Módulo 2
+      <div class="redes">
+          <div class="face">
       <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-twitter"></i> 
+    </div>
+    <div class="insta">
+      <i class="fa-brands fa-instagram"></i></div>
+      <div class="twitt">
+      <i class="fa-brands fa-twitter"></i> </div>
+    </div>
   </footer>
+</div>
 </body>
 </html>

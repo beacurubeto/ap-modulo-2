@@ -1,8 +1,204 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box;} 
+body{
+    position: relative;
+    margin: 0px
+    }
+.contenedor{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
 .conteiner{
-    background-color: lightseagreen;
+    height: 60px;
+    width: 100%;
+    background-color: gray;
+}
+.nav1{
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;    
+    color: black;
+}
+.nav2{
+    position: absolute;
+    top: 15px;
+    left: 80px;   
+    color: black;
+}
+.nav3{
+    position: absolute;
+    top: 15px;
+    left: 170px;
+    color: black;
+}
+.nav4{
+    position: absolute;
+    top: 15px;
+    left: 270px; 
+    color: black;
+}
+.search{
+    position: relative;
+    left: 75%;
+    top: 15px;
+    
 }
 h1{
-    background-color: forestgreen;
+    height: 200px;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 100px;
+    background-color: lightgray;
 }
-.pie{background-color: lightseagreen;}
+.icono1{
+    position: relative;
+    left: 50px;
+    width: 15%;
+    height: 20%;
+    padding: 60px 60px;
+    border-radius: 100px;
+    font-size: 60px;
+    text-align: center;
+    background-color: lightgray;
+}
+.opinion1{
+    position: relative;
+    left: 70px;
+    width: 20%;
+}
+.detalle1{
+    position: relative;
+    left: 100px;
+}
+.icono2{
+    position: relative;
+    left: 43%;
+    bottom: 220px;
+    width: 15%;
+    height: 20%;
+    padding: 60px 60px;
+    border-radius: 100px;
+    font-size: 60px;
+    text-align: center;
+    background-color: lightgrey;
+}
+.opinion2{
+    position: relative;
+    left: 44%;
+    bottom: 220px;
+    width: 20%;
+}
+.detalle2{
+    position: relative;
+    left: 48%;
+    bottom: 220px;
+}
+.icono3{
+    position: relative;
+    left: 80%;
+    bottom: 440px;
+    width: 15%;
+    height: 20%;
+    padding: 60px 60px;
+    border-radius: 100px;
+    font-size: 60px;
+    text-align: center;
+    background-color: lightgrey;
+}
+.opinion3{
+    position: relative;
+    left: 83%;
+    bottom: 440px;
+    width: 20%;
+}
+.detalle3{
+    position: relative;
+    left: 85%;
+    bottom: 440px;
+}
+.link1{
+    position: relative;
+    bottom: 300px;
+    margin-left: 50px;
+    width: 45%;
+    height: 340px;
+    padding: 5px 5px;
+    border: solid 3px gray;
+    font-size: 51px;
+    box-sizing: border-box;
+    }
+.img1{
+    position: relative;
+    left: 650px;
+    bottom: 650px;
+    margin-left: 50px;
+    width: 45%;
+    height: auto;
+    border: solid 3px gray;
+    }
+.link2{
+    position: relative;
+    left: 700px;
+    bottom: 600px;
+    width: 45%;
+    height: 400px;
+    padding: 5px 5px;
+    border: solid 3px gray;
+    font-size: 58px;
+    box-sizing: border-box;
+}
+.img2{
+    position:relative;
+    bottom: 1000px;
+    margin-left: 50px;
+    width: 45%;
+    height: auto;
+    border: solid 3px gray;
+}
+.link3{
+    position: absolute;
+    top: 1650px;
+    width: 45%;
+    margin-left: 50px;
+    height: 300px;
+    padding: 5px 5px;
+    border: solid 3px gray;
+    font-size: 45px;
+    box-sizing: border-box;
+}
+.img3{
+    position: absolute;
+    left: 700px;
+    top: 1650px;
+    width: 45%;
+    height: auto;
+    border: solid 3px gray;
+}
+.pie{
+    position: absolute;
+    bottom: 0px;
+    background-color: gray;
+    height: 60px;
+    width: 100%;
+    padding-top: 20px;
+}
+.redes{
+    position: relative;
+    left: 85%;
+}
+.face{
+    position: absolute;
+    bottom: 2px;
+}
+.insta{
+    position: absolute;
+    left: 50px;
+    bottom: 2px;
+}
+.twitt{
+    position: absolute;
+    left: 100px;
+    bottom: 2px;
+}
